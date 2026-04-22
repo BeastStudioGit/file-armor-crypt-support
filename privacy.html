@@ -101,8 +101,8 @@
         <h2>Camera Access</h2>
         <p>The app requests camera access for two optional features: capturing photos and videos directly into the vault, and the break-in detection feature. All captured images remain on your device, encrypted within the app's secure storage. No images are ever uploaded or transmitted.</p>
 
-        <h2>Face ID</h2>
-        <p>If you enable Face ID for unlock, authentication is handled entirely by Apple's LocalAuthentication framework on your device. No biometric data is accessed or stored by Armored Vault.</p>
+        <h2>Face ID &amp; Device Authentication</h2>
+        <p>If you enable Face ID for unlock, authentication is handled entirely by Apple's LocalAuthentication framework on your device. The app also uses Apple's device-owner authentication (Face ID, Touch ID, or device passcode) to gate the Vault Recovery Zone, which is the sanctioned clean-slate reset path for forgotten passphrases. No biometric data is accessed or stored by Armored Vault in either case — all evaluation happens within iOS.</p>
 
         <h2>Third-Party Services</h2>
         <p>Armored Vault uses no third-party SDKs, analytics services, ad networks, or cloud services of any kind.</p>

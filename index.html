@@ -92,8 +92,11 @@
 
         <h2>Frequently Asked Questions</h2>
 
+        <p><strong>How do I create a strong passphrase?</strong><br>
+        Use the built-in Generate Passphrase tool in Settings. It rolls true random dice against the EFF Large Wordlist to build a Diceware passphrase of 8, 10, or 12 words. A 10-word Diceware passphrase is ~129 bits — roughly 25.6 quintillion years to crack at one trillion guesses per second. You can also enter your own passphrase; a live strength meter shows the estimated crack time as you type.</p>
+
         <p><strong>What happens if I forget my passphrase?</strong><br>
-        Your passphrase is the only way to unlock your vault. It is never stored on any server and cannot be recovered. We strongly recommend using a memorable passphrase of 10 or more random words.</p>
+        AES-256 encryption cannot be reversed without your passphrase — your files cannot be decrypted by us, by Apple, or by anyone else. However, the app includes a <strong>Vault Recovery Zone</strong>: tap "Forgot passphrase?" on the lock screen, authenticate with Face ID / Touch ID / device passcode, type RESET, and the current vault mode is wiped so you can start fresh with a new passphrase. Recovery is a clean-slate reset, not a decryption back door. Your encrypted files in that vault mode are permanently erased; launch codes, app settings, the Intruder Log, and the other vault mode are preserved.</p>
 
         <p><strong>Does the app send my data anywhere?</strong><br>
         No. Armored Vault works entirely offline. No data ever leaves your device unless you explicitly export it.</p>
